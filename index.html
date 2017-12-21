@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/palette.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <ul class="option">
+            <li>保存</li>
+            <li>新建</li>
+            <li>清空</li>
+            <li id="che">撤销</li>
+        </ul>
+        <ul class="shape">
+            <li id="pencil">铅笔</li>
+            <li id="line">直线</li>
+            <li id="dashed">虚线</li>
+            <li id="radiu">圆形</li>
+            <li id="rectangle">矩形</li>
+            <li class="none">
+                <input type="text" class="text" placeholder="边/角">
+            </li>
+            <li id="poly" class="duo">多边形</li>
+            <li id="polyJ" class="duo">多角形</li>
+        </ul>
+        <ul class="style">
+            <li id="fill">填充</li>
+            <li class="styles">颜色：<input type="color" class="col"></li>
+            <li>轮廓</li>
+            <li>端点</li>
+            <li>线宽</li>
+        </ul>
+    </header>
+    <div class="con">
+        <canvas width="1226px" height="500px"></canvas>
+    </div>
+</body>
+</html>
